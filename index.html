@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">PORTAFOLIO</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="https://scontent.fmex11-4.fna.fbcdn.net/v/t1.6435-9/96611338_1157995447868963_3818078278053265408_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_eui2=AeG2uE4ZaKwBrUfmQrOjh1s-7aNLABMSojbto0sAExKiNrunnLA-C-2bvkaAAkBh2_XcI0pzgg_4NryMEPM2U5zc&_nc_ohc=qbfbWkwYXWQAX9rRJTB&_nc_ht=scontent.fmex11-4.fna&oh=00_AT_NVtzXz7NYyRie7LpDyq7fdUEuaVFB4EEoODX2uhYHxw&oe=632F1B7B" alt="">
+            </div>
+            <h1>Elizabeth Palma</h1>
+
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Elizabeth Palma.</span>Mucho gusto pasando por este apartado les comento un poco de mi experiencia,Acabo de concluir un Boot Camp llamado Desarrollo Web Full Stack en ese curso adquiri muchos 
+            aprendizajes sobre como realizar paginas web y variedad de cosas para que una pagina logre dar el plus que piden,soy una persona muy entusiasta y creativa me gusta los desafios y sobre todo explotar mi imaginacion al maximo 
+            ,gracias a mi apertura comunicativa y mi automotivación y para conseguir resultados, siempre estoy dispuesta a interactuar con los clientes y a acceder a sus necesidades, verificar la información y garantizar un servicio de calidad.
+            Quiero agradecerle su tiempo y consideración gracias.
+         </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            23-03-2003
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            55-77-99-46-53
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            eli334551@gmail.com
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>46%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>48%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MongoDB</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>54%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>back-end</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>49%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="https://scontent.fmex11-2.fna.fbcdn.net/v/t1.15752-9/300029506_785913122453349_1578045728094715447_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeG867dXzw9O94Pu25uVXc0ulUuQvgUigMGVS5C-BSKAwSYam-TMbTR7zF83FfC4KT5ClpmfXMmGeUWdsqmMm0uZ&_nc_ohc=hZ2FsY5hrIMAX_ARUXG&_nc_ht=scontent.fmex11-2.fna&oh=03_AVL9DXHrDmIpM4R6gIwZX_nmeFt64v4a1kmZyJ5_tM6Q9g&oe=632E923F" alt="">
+                    <div class="overlay">
+                        <h3>Landing de Venta</h3>
+                        <p>Venta de cafe</p>
+                        <a href="https://github.com/Elizabethpalma23/Proyecto-ONE.git">Vizualizar</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://scontent.fmex11-2.fna.fbcdn.net/v/t1.15752-9/299659338_654225095638376_3579797512388827286_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHolkF2Mep9lGqzINtZ9bfpxS5KdvqjsZnFLkp2-qOxmWduGIvKJ3G8qBdsUtgdaoDCLFEXu-KhqkdYk33tThCw&_nc_ohc=pwNLfjLME3sAX9dCtTp&tn=tTWcsox6vvVL7wDF&_nc_ht=scontent.fmex11-2.fna&oh=03_AVJ0-WO_mcoalwZ_Zrg5kaY_zMxjrb4xDh9zstLPQkOgwA&oe=633018A3" alt="">
+                    <div class="overlay">
+                        <h3>Aplicación CRUD</h3>
+                        <p>Operaciones que trabajan con datos para persistirlos en una base de datos.</p>
+                        <a   type="button"  class="btn color-primario btn-lg" href="https://github.com/Elizabethpalma23/CRUD.git">Vizualizar</a>
+                    </div>
+                
+                </div>
+                <div class="proyecto">
+                    <img src="https://i2.wp.com/academy.leewayweb.com/wp-content/uploads/2019/05/dashboard.png?fit=3251%2C1972&ssl=1" alt="">
+                    <div class="overlay">
+                        <h3>Tablero de Datos ("Dashboard")</h3>
+                        <p>Conexión a un API</p>
+                        <a   type="button"  class="btn color-primario btn-lg" href="https://elizabethpalma23.github.io/Monta-as-/">Vizualizar</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://scontent.fmex11-2.fna.fbcdn.net/v/t1.15752-9/299447706_414235430596822_7820376470116925867_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEB4abhrOrRmHt-VieydwJxOGiQXg0HFuI4aJBeDQcW4r27CW2azdbeBYLE6y8IHG_eFc2YQa2Nhmi2yVsIEPHz&_nc_ohc=IIXVoMSnsTkAX9b6VeI&_nc_ht=scontent.fmex11-2.fna&oh=03_AVJZE15h8aiRn9MyyCogTxEeTB2qy8aD-himMiVAk1aM1g&oe=632F1342" alt="">
+                    <div class="overlay">
+                        <h3>Restaurant App</h3>
+                        <p>Aplicacion para restaurante</p>
+                        <a   type="button"  class="btn color-primario btn-lg" href="https://elizabethpalma23.github.io/Monta-as-/">Vizualizar</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://scontent.fmex11-2.fna.fbcdn.net/v/t1.15752-9/299634831_1352332968629308_4690716675123642905_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeG1tX_5gFSbmYhXsIGYnWbxGbANavxo6ZAZsA1q_GjpkIVDHGDZHA8gZfJtA3buN0wxbYoiL4jcTtypSg7DTUJx&_nc_ohc=f0ODlFdKhWYAX9GtEFu&_nc_ht=scontent.fmex11-2.fna&oh=03_AVIx1p9-itBEeEQUQWazvIXNTE7MkbdFK33zB2GJ8q6nfg&oe=632ED911" alt="">
+                    <div class="overlay">
+                        <h3>Comercio Electrónico</h3>
+                        <p>Aplicación FULLSTACK</p>
+                        <a   type="button"  class="btn color-primario btn-lg" href="https://github.com/Elizabethpalma23/Online.git">Vizualizar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
